@@ -1,0 +1,248 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .editor-container {
+    flex: 1;
+    margin-right: 20px;
+    padding: 20px;
+  }
+  
+  .toolbar {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .toolbar button,
+  .toolbar select {
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toolbar button:hover,
+  .toolbar select:hover {
+    background-color: #e0e0e0;
+  }
+  
+  #editor {
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    outline: none;
+  }
+  
+  .post-actions {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  #tags {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  #post-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #post-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .preview-container {
+    flex: 1;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+  }
+  
+  #preview {
+    height: 400px;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  /* Navbar */
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items:center;
+      padding-top: 20px;
+    }
+    
+    .logo {
+      font-size: 1.8rem;
+      color: rgb(5, 5, 116);
+      padding-left: 20px;
+    }
+    
+    .hamburger {
+      padding-right: 20px;
+      cursor: pointer;
+    }
+    
+    .hamburger .line {
+      display: block;
+      width: 40px;
+      height: 5px;
+      margin-bottom: 10px;
+      background-color: black;
+    }
+    
+    .nav__link {
+      position: fixed;
+      width: 94%;
+      top: 5rem;
+      left: 18px;
+      background-color: lightblue;
+    }
+    
+    .nav__link a {
+      display: block;
+      text-align: center;
+      padding: 10px 0;
+    }
+    
+    .nav__link a:hover {
+      background-color:grey;
+    }
+    
+    .hide {
+      display: none;
+    }
+    @media screen and (min-width: 600px) {
+      .nav__link {
+        display: block;
+        position: static;
+        width: auto;
+        margin-right: 20px;
+        background: none;
+      }
+    
+      .nav__link a {
+        display: inline-block;
+        padding: 15px 20px;
+      }
+    
+      .hamburger {
+        display: none;
+      }
+    }
+    
+  /* RESET */
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      background: #ebecf0;
+      font-family: "Open Sans", sans-serif;
+      min-height: 100vh;
+    
+      a {
+        text-decoration: none;
+        color: #172b4d;
+      }
+    
+      h1 {
+        font-family: "Song Myung", serif;
+      }
+    }
+   
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+}
+
+footer h4 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+footer ul {
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer .list-unstyled li a i {
+  margin-right: 10px;
+}
